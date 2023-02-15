@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.time{
+    font-size: 40px;
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+}
+.sign-up{
+    width: 300px;
+    border: 1px solid grey;
+    margin: 150px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 2px 10px 2px #888888;
+}
+.sign-up header{
+    text-align: center;
+}
+.sign-up header:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.user-input{
+    margin-bottom: 10px;
+}
+.user-input input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.signup-form .signup-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.login-form .login-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.signup-form .signup-btn button{
+    background: rgb(38, 208, 197);
+    padding: 4px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.login-form .login-btn button{
+    background: rgb(38, 208, 197);
+    padding: 4px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.w3school-header{
+    padding: 0 16px 0 12px;
+    display: flex;
+    box-shadow: 5px 10px 18px #888888;
+}
+.w3school-header .logo-img img{
+    width: 45px;
+    /* height: 50px; */
+}
+.logo-img{
+    padding: 14px;
+}
+.trebuttons {
+    padding: 22px 16px;
+    font-size: 18px;
+}
+.trebuttons:hover{
+    background:#04AA6D;
+    color: white;
+    cursor: pointer;
+}
+.float-right{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+.icons{
+    display: flex;
+}
+.icons div{
+    padding: 22px 10px;
+}
+.icons div i{
+    font-size: 20px;
+}
+.pgcl-buttons{
+    padding: 16px 0;
+}
+.pgcl-button{
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.b-a{
+    background: black;
+    color: white;
+}
+.p{
+    background: pink;
+}
+.y{
+    background: yellow;
+}
+.g{
+    background: #04AA6D;
+}
+.cross-button{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
